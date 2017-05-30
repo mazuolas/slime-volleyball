@@ -1,0 +1,18 @@
+{
+  "name": "slime",
+  "version": "1.0.0",
+  "description": "javascript game",
+  "main": "slime.js",
+  "repository": "https://github.com/mazuolas/slime-volleyball.git",
+  "author": "mark azuolas <markazuolas@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "webpack",
+    "webpack": "webpack --watch"
+  },
+  "dependencies": {
+    "createjs-easeljs": "^0.8.2",
+    "webpack": "^2.6.1"
+  }
+}
