@@ -21,13 +21,15 @@ This app will have a single page where the player will first choose between 1 or
 
 ![wireframes](slime_volleyball.png)
 
-## Technologies
+## Technologies and Architecture
 
 This project will be implemented with the following:
 
 * JavaScript and jquery for game logic
 * Easel.js with HTML5 Canvas for rendering
 * Webpack to bundle and server the scripts
+
+The entry file will be slime.js which will tie in all of the other parts and set up the game.  There will be a player.js file that will have all of the scripting logic necessary for the human player to be shown and be able to control their slime.  Ball.js will have the ball physics logic.  Cout.js will have the rendering logic and keep track of the current score and who the two players are (human or AI).  
 
 ## Implementation Timeline  
 
