@@ -1,10 +1,7 @@
-button {
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0px auto;
+body {
+  font-family: sans-serif;
 }
+
 button {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -12,8 +9,14 @@ button {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 20px;
+}
+.buttons {
+justify-content: center;
 }
 
 div {
@@ -29,5 +32,39 @@ div {
   margin: 0 auto;
   display: flex;
   padding: 20px;
-  width: 70%;
+  width: 60%;
+}
+
+#welcome {
+  position: absolute;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  top: 40%;
+}
+
+.controls {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+#p1-controls{
+  margin-right: 400px
+}
+
+#p1-controls, #p2-controls {
+  visibility: hidden;
+}
+
+h3, i {
+  margin: 0;
+  padding: 5px 10px;
+  border: 3px solid black;
+  border-radius: 4px;
+}
+
+.jump {
+  position: relative;
+  top: -40px;
 }

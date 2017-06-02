@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Slime Volleyball</title>
+    <script src="https://use.fontawesome.com/de3dbd3328.js"></script>
     <script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
     <script type="application/javascript" src="lib/bundle.js"></script>
     <link rel="stylesheet" type="text/css" href="style/slime.css">
@@ -13,12 +14,27 @@
   </script>
   <body>
     <h1>Slime Beach Volleyball</h1>
-    <div >
+    <div class='buttons'>
       <button id='one-player'>One Player</button>
       <button id='two-player'>Two Player</button>
       <button id='ai-game'>AI v AI</button>
     </div>
+    <div id='welcome'>
+      <h1>Choose a Game Type Above!</h1>
+    </div>
     <canvas id="canvas" width="1280" height="853"></canvas>
+    <div class='controls'>
+      <div id='p1-controls' >
+        <h3>A</h3>
+        <h3 class='jump'>W</h3>
+        <h3>D</h3>
+      </div>
+      <div id='p2-controls' >
+        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+        <i class="fa fa-arrow-up jump" aria-hidden="true"></i>
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      </div>
 
+    </div>
   </body>
 </html>
