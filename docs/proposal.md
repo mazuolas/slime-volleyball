@@ -10,7 +10,7 @@ My version of slime volleyball will have the following:
 
 * controlling the slimes using a keyboard
 * ball bouncing physics
-* tracking score and starting a new game
+* starting a new game
 * Single player vs AI
 * Two player using wasd and arrow keys
 * production readme

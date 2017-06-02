@@ -1,10 +1,12 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Coiny', cursive;
   background-color: #F5F5F5;
   margin: 0;
 }
 
 button {
+
+    font-family: 'Coiny', cursive;
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
@@ -26,14 +28,17 @@ div {
 }
  h1 {
    display: flex;
-   margin: 0 auto;
+   margin: 20px auto;
+   margin-bottom: 0;
+   font-weight: normal;
    justify-content: center;
  }
 
 #canvas {
   margin: 0 auto;
   display: flex;
-  width: 50%;
+  width: 90%;
+  max-width: 900px;
   height: 100%;
 }
 .canvas {
@@ -59,11 +64,12 @@ div {
   justify-content: center;
 }
 #p1-controls{
-  margin-right: 200px
+  margin-right: 10%;
 }
 
 #p1-controls, #p2-controls {
   visibility: hidden;
+  font-family: sans-serif;
 }
 
 h3, i {
@@ -81,4 +87,11 @@ h3, i {
 
 p {
   margin: 0 20px 0 0;
+  font-family: 'Coiny', cursive;
+}
+
+a {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
