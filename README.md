@@ -5,6 +5,7 @@ Slime volleyball is a one or two player browser based game.  It was build using 
 ## Features and implementation
 
 ### AI computer player
+![AI v AI](./docs/slime_ai.gif)
 
 An intelligent computer player was created that uses constant acceleration physics equations to calculate where the ball will land. It takes into account how the ball bounces off the edges of the play area.  The computer moves into position to hit the ball as soon as the trajectory of the ball changes and jumps when the ball is close enough to hit.  
 
