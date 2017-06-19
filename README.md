@@ -1,4 +1,5 @@
 # Slime Volleyball
+[Live link](https://mazuolas.github.io/slime-volleyball/)
 
 Slime volleyball is a one or two player browser based game.  It was build using Easeljs to manipulate a HTML5 canvas and JavaScript to calculate the game physics and logic.
 
