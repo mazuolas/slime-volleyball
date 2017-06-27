@@ -105,3 +105,8 @@ a {
   display: flex;
   justify-content: center;
 }
+
+.selected {
+  background-color: green;
+  border: 3px solid black;
+}
