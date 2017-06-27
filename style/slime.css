@@ -18,7 +18,7 @@ button {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 20px 20px;
+    margin: 10px 20px;
 }
 .buttons {
 justify-content: center;
@@ -30,6 +30,13 @@ div {
  h1 {
    display: flex;
    margin: 20px auto;
+   margin-bottom: 0;
+   font-weight: normal;
+   justify-content: center;
+ }
+ h2 {
+   display: flex;
+   margin: 0px auto;
    margin-bottom: 0;
    font-weight: normal;
    justify-content: center;
@@ -60,7 +67,8 @@ div {
 }
 
 .controls {
-  margin: 50px 0px;
+  margin: 0;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
 }
