@@ -118,4 +118,5 @@ a {
 
 #start:hover {
   background-color: green;
+  border: 3px solid black;
 }
