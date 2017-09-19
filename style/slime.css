@@ -110,3 +110,7 @@ a {
   background-color: green;
   border: 3px solid black;
 }
+
+#start {
+  background-color: red;
+}
