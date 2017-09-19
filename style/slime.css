@@ -114,7 +114,7 @@ a {
 #start {
   background-color: red;
   font-size: 24px;
-  border: 3px solid white;
+  border: 3px solid darkred;
 }
 
 #start:hover {
