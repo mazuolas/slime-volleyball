@@ -49,6 +49,3 @@ this.vel[1] = -1 * absVel * Math.sin(angle);
 
 #### Add different computer difficulty settings
 Currently the only option for ai to play against is very smart and responsive and will never lose.  
-
-#### Add scoring and keep track of number of win/loss
-Allow for the game to continue after the first point, reseting the position of the ball and players.  Change which player is serving based on who scored last.
